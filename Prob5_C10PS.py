@@ -1,4 +1,4 @@
-#Problem 5(Bit hard)
+#Problem 5(REally hard)
 from random import randint #to directly import
 class Train:
     def __init__(self,t_id,fr,to):
@@ -15,4 +15,5 @@ class Train:
 pok=Train(55,"Hyderabad","Vizag")
 pok.book()
 pok.GetStatus()
+
 pok.fare()
